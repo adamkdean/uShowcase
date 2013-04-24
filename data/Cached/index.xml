@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <imageText>Hello, world!</imageText>
+    <cachedImage>
+      <fileName>e1a5xf2p.gif</fileName>
+      <dateCreated>Mon, 22 Apr 2013 15:26:17 GMT</dateCreated>
+      <dateLastAccessed>Tue, 23 Apr 2013 13:59:40 GMT</dateLastAccessed>
+      <imageFormat>gif</imageFormat>
+      <rotate>0</rotate>
+      <flip />
+      <colorMode />
+      <crop />
+      <width>300</width>
+      <height>300</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+      <antiAlias>True</antiAlias>
+      <fontName>Arial</fontName>
+      <fontSize>32</fontSize>
+      <lineHeight>-1</lineHeight>
+      <fontStyle>Regular</fontStyle>
+      <fontColor>#000000</fontColor>
+      <align>left</align>
+      <valign>middle</valign>
+    </cachedImage>
+    <cachedImage>
+      <fileName>nbjh41qs.gif</fileName>
+      <dateCreated>Tue, 23 Apr 2013 13:59:42 GMT</dateCreated>
+      <dateLastAccessed>Tue, 23 Apr 2013 13:59:42 GMT</dateLastAccessed>
+      <imageFormat>gif</imageFormat>
+      <rotate>0</rotate>
+      <flip />
+      <colorMode />
+      <crop />
+      <width>940</width>
+      <height>0</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+      <antiAlias>True</antiAlias>
+      <fontName>Arial</fontName>
+      <fontSize>32</fontSize>
+      <lineHeight>-1</lineHeight>
+      <fontStyle>Regular</fontStyle>
+      <fontColor>#000000</fontColor>
+      <align>left</align>
+      <valign>middle</valign>
+    </cachedImage>
+  </image>
+</imageIndex>

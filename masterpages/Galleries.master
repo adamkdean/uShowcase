@@ -1,0 +1,6 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderId="bodyPlaceHolder" runat="server">
+	<!-- we will leave this here just incase someone goes to /galleries.aspx -->	
+	<umbraco:Macro Alias="GalleryGrid" runat="server"></umbraco:Macro>
+</asp:Content>

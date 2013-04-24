@@ -1,0 +1,6 @@
+﻿@{ 
+	var homeNode = Model.AncestorOrSelf("Home");
+	var siteName = Parameter.SiteName;
+}
+
+<a href="@homeNode.Url">@siteName</a>

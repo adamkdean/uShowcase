@@ -1,0 +1,27 @@
+﻿@{
+	var galleryNodes = @Model.AncestorOrSelf().Descendants("Gallery").Where("Visible").Items;
+	var gridCount = 0;
+}
+
+<div id="photogrid-wrapper">	
+	@foreach(var gallery in galleryNodes)
+	{
+		var maxWidth = 300;
+		var maxHeight = 300;
+		var imageUrl = string.Format("/imagegen.ashx?image={0}&width={1}&height={2}&constrain=true",
+									 gallery.galleryCoverPhoto, maxWidth, maxHeight);
+		var gridClass = "";
+		if (gridCount == 0) { gridClass = "photogrid-left"; gridCount++; }
+		else if (gridCount == 1) { gridClass = "photogrid-centre"; gridCount++; }
+		else if (gridCount == 2) { gridClass = "photogrid-right"; gridCount = 0; }
+		
+		<div class="photogrid @gridClass" style="background-image: url(@imageUrl);">
+			<a href="@gallery.Url"><span></span></a>
+			<div class="info">
+				<p class="name">@gallery.galleryName</p>
+				<p class="description">@gallery.galleryDescription</p>
+			</div>
+		</div>
+	}
+	<div style="clear:both"></div>
+</div>

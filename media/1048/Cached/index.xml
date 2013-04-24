@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<imageIndex>
+  <image>
+    <originalFileName>ex.png</originalFileName>
+    <size>22716</size>
+    <dateLastModified>Wed, 24 Apr 2013 10:21:46 GMT</dateLastModified>
+    <width>940</width>
+    <height>705</height>
+    <cachedImage>
+      <fileName>m0gven4j.png</fileName>
+      <dateCreated>Wed, 24 Apr 2013 10:22:42 GMT</dateCreated>
+      <dateLastAccessed>Wed, 24 Apr 2013 10:44:47 GMT</dateLastAccessed>
+      <imageFormat>png</imageFormat>
+      <rotate>0</rotate>
+      <flip />
+      <colorMode />
+      <crop />
+      <width>300</width>
+      <height>225</height>
+      <bgColor>#FFFFFF</bgColor>
+      <transparent>True</transparent>
+      <border>0</border>
+      <borderColor>#000000</borderColor>
+      <constrain>True</constrain>
+      <pad>False</pad>
+    </cachedImage>
+  </image>
+</imageIndex>

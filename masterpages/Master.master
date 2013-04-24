@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/umbraco/masterpages/default.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderId="ContentPlaceHolderDefault" runat="server">
+	<!doctype html>
+	<html lang="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="description" content="<umbraco:Item field='description' recursive='true' runat='server' />" />
+			<meta name="keywords" content="<umbraco:Item field='keywords' recursive='true' runat='server' />" />
+			
+			<title><umbraco:Item field="title" recursive="true" runat="server" /></title>
+			
+			<link rel="stylesheet" href="/css/bootstrap.css">
+			<link rel="stylesheet" href="/css/ushowcase.css">
+			
+			<script src="/scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+			<script src="/scripts/ushowcase.js" type="text/javascript"></script>
+		</head>
+		<body>
+			<div class="container">
+				
+				<div class="row-fluid header">
+					<div class="span3">
+						<h1><umbraco:Macro SiteName="[$siteName]" Alias="HomeLink" runat="server" /></h1>
+					</div>
+					<div class="span9">				
+						<umbraco:Macro Alias="Navigation" runat="server"></umbraco:Macro>
+					</div>
+				</div>
+				
+				<asp:ContentPlaceHolder Id="bodyPlaceHolder" runat="server">
+				</asp:ContentPlaceHolder>
+				
+				<div class="row footer">
+					<div class="span6">
+						<p><umbraco:Item field="footerText" recursive="true" runat="server" /></p>
+					</div>
+					<div class="span6">
+						<umbraco:Macro Alias="Navigation" runat="server"></umbraco:Macro>
+					</div>
+				</div>
+				
+			</div>
+		</body>
+	</html>
+</asp:Content>

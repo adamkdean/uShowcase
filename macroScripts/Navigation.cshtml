@@ -1,0 +1,18 @@
+﻿<ul>
+	@{ 
+		var homeNode = Model.AncestorOrSelf("Home");
+	  	var homeClass = Library.If(homeNode.Id == Model.Id, "selected", "");
+	}
+	
+    <li><a href="@homeNode.Url" class="@homeClass">@homeNode.Name</a></li>		
+	
+	@foreach(var pageNode in homeNode.Children.Where("Visible"))
+	{
+		@* hide galleries from the nav *@
+		if (pageNode.NodeTypeAlias == "Galleries") { continue; }
+		
+		var pageClass = Library.If(pageNode.Id == Model.Id, "selected", "");
+		
+		<li><a href="@pageNode.Url" class="@pageClass">@pageNode.Name</a></li>
+	}
+</ul>

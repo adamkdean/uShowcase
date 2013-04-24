@@ -1,0 +1,6 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderId="bodyPlaceHolder" runat="server">
+	<!-- display the galleries on the homepage by default -->
+	<umbraco:Macro Alias="GalleryGrid" runat="server"></umbraco:Macro>
+</asp:Content>

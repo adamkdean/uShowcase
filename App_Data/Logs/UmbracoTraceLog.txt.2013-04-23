@@ -1,0 +1,236 @@
+2013-04-23 10:09:37,681 [8] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-04-23 10:09:37,747 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-04-23 10:09:37,752 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2013-04-23 10:09:38,182 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 13 (took 424ms)
+2013-04-23 10:09:38,214 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 2ms)
+2013-04-23 10:09:38,216 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2013-04-23 10:09:38,218 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-04-23 10:09:38,225 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2013-04-23 10:09:38,226 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-04-23 10:09:38,492 [8] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 808ms)
+2013-04-23 10:09:39,138 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 19ms)
+2013-04-23 10:09:39,318 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-04-23 10:09:39,449 [8] INFO  umbraco.BusinessLogic.Log - [Thread 9] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 3
+2013-04-23 10:09:40,530 [8] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2013-04-23 10:09:41,166 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-04-23 10:11:36,583 [8] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 2ms)
+2013-04-23 10:11:36,653 [8] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 1ms)
+2013-04-23 10:11:36,699 [8] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 2ms)
+2013-04-23 10:16:14,577 [8] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2013-04-23 10:30:52,961 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-04-23 10:30:52,980 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-04-23 10:30:52,986 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2013-04-23 10:30:53,106 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 13 (took 114ms)
+2013-04-23 10:30:53,120 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 2ms)
+2013-04-23 10:30:53,122 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2013-04-23 10:30:53,124 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-04-23 10:30:53,129 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2013-04-23 10:30:53,131 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-04-23 10:30:53,188 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 223ms)
+2013-04-23 10:30:53,418 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-04-23 10:30:53,469 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-04-23 10:30:53,508 [7] INFO  umbraco.BusinessLogic.Log - [Thread 10] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 3
+2013-04-23 10:34:52,284 [7] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2013-04-23 10:34:52,619 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-04-23 10:34:53,021 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 2ms)
+2013-04-23 10:34:53,027 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 1ms)
+2013-04-23 10:34:53,046 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 2ms)
+2013-04-23 10:41:39,022 [7] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2013-04-23 10:42:43,566 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content 'Mixed Fruit' with Id '1067' has been published.
+2013-04-23 10:42:44,146 [7] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 36] Error adding node 1058 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-04-23 11:00:31,772 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Fruit' with Id '1089' has been unpublished.
+2013-04-23 11:00:31,825 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'More Fruit' with Id '1090' has been unpublished.
+2013-04-23 11:29:20,070 [7] INFO  umbraco.CreatedPackageTasks - [Thread 30] Xml save started
+2013-04-23 11:31:53,620 [7] ERROR umbraco.cms.businesslogic.packager.CreatedPackage - [Thread 27] An error occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Xml.XmlNode.AppendChild(XmlNode newChild)
+   at umbraco.cms.businesslogic.packager.CreatedPackage.Publish()
+2013-04-23 11:34:32,969 [7] ERROR umbraco.cms.businesslogic.packager.CreatedPackage - [Thread 30] An error occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at System.Xml.XmlNode.AppendChild(XmlNode newChild)
+   at umbraco.cms.businesslogic.packager.CreatedPackage.Publish()
+2013-04-23 13:12:43,494 [8] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-04-23 13:12:43,512 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-04-23 13:12:43,517 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2013-04-23 13:12:43,639 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 13 (took 116ms)
+2013-04-23 13:12:43,654 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 2ms)
+2013-04-23 13:12:43,657 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2013-04-23 13:12:43,659 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-04-23 13:12:43,666 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2013-04-23 13:12:43,667 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-04-23 13:12:43,725 [8] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 228ms)
+2013-04-23 13:12:43,965 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-04-23 13:12:44,015 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-04-23 13:12:44,056 [8] INFO  umbraco.BusinessLogic.Log - [Thread 9] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 3
+2013-04-23 13:12:44,136 [8] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2013-04-23 13:12:44,417 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-04-23 13:12:44,825 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 2ms)
+2013-04-23 13:12:44,831 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 1ms)
+2013-04-23 13:12:44,852 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 3ms)
+2013-04-23 14:26:51,360 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-04-23 14:26:51,378 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-04-23 14:26:51,383 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2013-04-23 14:26:51,504 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 13 (took 116ms)
+2013-04-23 14:26:51,518 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 2ms)
+2013-04-23 14:26:51,520 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2013-04-23 14:26:51,522 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-04-23 14:26:51,532 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2013-04-23 14:26:51,534 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-04-23 14:26:51,594 [7] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 231ms)
+2013-04-23 14:26:51,826 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-04-23 14:26:51,876 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-04-23 14:26:51,916 [7] INFO  umbraco.BusinessLogic.Log - [Thread 10] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 3
+2013-04-23 14:26:51,995 [7] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2013-04-23 14:26:52,189 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-04-23 14:26:52,615 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 2ms)
+2013-04-23 14:26:52,621 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 1ms)
+2013-04-23 14:26:52,639 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 2ms)
+2013-04-23 14:28:42,064 [7] INFO  umbraco.BasePages.BasePage - [Thread 10] User admin (Id: 0) logged in
+2013-04-23 14:28:42,103 [7] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2013-04-23 14:32:12,400 [7] INFO  umbraco.BasePages.BasePage - [Thread 14] User admin (Id:0) logged out
+2013-04-23 14:32:22,397 [7] INFO  umbraco.BasePages.BasePage - [Thread 21] User admin (Id:0) logged out
+2013-04-23 14:34:19,984 [7] INFO  umbraco.BasePages.BasePage - [Thread 22] User admin (Id: 0) logged in
+2013-04-23 14:34:33,041 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Colourful Food' with Id '1066' has been unpublished.
+2013-04-23 14:34:33,120 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Mixed Fruit' with Id '1067' has been unpublished.
+2013-04-23 14:34:33,147 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Vibrant Fruit' with Id '1072' has been unpublished.
+2013-04-23 14:34:33,173 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Heavenly Fruit' with Id '1071' has been unpublished.
+2013-04-23 14:34:33,197 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Vegetables & Fruit' with Id '1070' has been unpublished.
+2013-04-23 14:34:33,221 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Juicy Fruit' with Id '1069' has been unpublished.
+2013-04-23 14:34:33,246 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Sliced Fruit' with Id '1068' has been unpublished.
+2013-04-23 14:34:38,331 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Greece' with Id '1073' has been unpublished.
+2013-04-23 14:34:38,366 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Market Beach' with Id '1079' has been unpublished.
+2013-04-23 14:34:38,391 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Rhodes Castle' with Id '1078' has been unpublished.
+2013-04-23 14:34:38,416 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Solitude in the Sun' with Id '1077' has been unpublished.
+2013-04-23 14:34:38,441 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Serene Beach' with Id '1076' has been unpublished.
+2013-04-23 14:34:38,466 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Outlook' with Id '1075' has been unpublished.
+2013-04-23 14:34:38,493 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Shipwreck' with Id '1074' has been unpublished.
+2013-04-23 14:34:40,749 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Wildlife' with Id '1080' has been unpublished.
+2013-04-23 14:34:40,779 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Kingfisher' with Id '1083' has been unpublished.
+2013-04-23 14:34:43,741 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Architecture' with Id '1081' has been unpublished.
+2013-04-23 14:34:43,774 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Opera House' with Id '1084' has been unpublished.
+2013-04-23 14:34:46,059 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Family' with Id '1082' has been unpublished.
+2013-04-23 14:34:46,089 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Baby Ipsum' with Id '1085' has been unpublished.
+2013-04-23 14:37:23,175 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 18] New document 1091
+2013-04-23 14:44:39,429 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content 'Food' with Id '1091' has been published.
+2013-04-23 14:44:39,829 [7] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 48] Error adding node 1058 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-04-23 14:45:02,525 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 50] New document 1092
+2013-04-23 14:45:12,464 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 52] Content 'Still Onion' with Id '1092' has been published.
+2013-04-23 14:45:29,344 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 43] New document 1093
+2013-04-23 14:45:37,619 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content 'Fruits in a melon' with Id '1093' has been published.
+2013-04-23 14:45:54,557 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 39] New document 1094
+2013-04-23 14:46:04,053 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Melon Slices' with Id '1094' has been published.
+2013-04-23 14:46:19,014 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 29] New document 1095
+2013-04-23 14:46:26,902 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Pepper and Tomato' with Id '1095' has been published.
+2013-04-23 14:46:45,686 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 49] New document 1096
+2013-04-23 14:46:55,413 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Strawberry Water Splash' with Id '1096' has been published.
+2013-04-23 14:47:08,952 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 43] New document 1097
+2013-04-23 14:47:15,998 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 13] Content 'Breakfast Waffles' with Id '1097' has been published.
+2013-04-23 14:47:59,759 [7] INFO  umbraco.BusinessLogic.Log - [Thread 13] Log scrubbed.  Removed all items older than 2013-02-22 14:47:59
+2013-04-23 14:47:59,760 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 13] Application shutdown. Reason: HostingEnvironment
+2013-04-23 14:48:04,146 [19] INFO  Umbraco.Core.CoreBootManager - [Thread 28] Umbraco application starting
+2013-04-23 14:48:04,210 [19] INFO  Umbraco.Core.PluginManager - [Thread 28] Determining hash of code files on disk
+2013-04-23 14:48:04,213 [19] INFO  Umbraco.Core.PluginManager - [Thread 28] Hash determined (took 2ms)
+2013-04-23 14:48:04,316 [19] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 13 (took 102ms)
+2013-04-23 14:48:04,328 [19] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 3ms)
+2013-04-23 14:48:04,331 [19] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 2ms)
+2013-04-23 14:48:04,333 [19] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-04-23 14:48:04,336 [19] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-04-23 14:48:04,339 [19] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-04-23 14:48:04,365 [19] INFO  Umbraco.Core.CoreBootManager - [Thread 28] Umbraco application startup complete (took 218ms)
+2013-04-23 14:48:04,549 [19] INFO  umbraco.BusinessLogic.Log - [Thread 42] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 3
+2013-04-23 14:48:04,551 [19] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-04-23 14:48:04,574 [19] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-04-23 14:48:23,953 [19] INFO  umbraco.content - [Thread 50] Loading content from disk cache...
+2013-04-23 14:48:24,077 [19] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-04-23 14:48:24,427 [19] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 2ms)
+2013-04-23 14:48:24,433 [19] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 1ms)
+2013-04-23 14:48:24,449 [19] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 2ms)
+2013-04-23 14:48:40,071 [19] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2013-04-23 14:48:40,306 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'Food' with Id '1091' has been published.
+2013-04-23 14:48:40,429 [19] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 32] Error adding node 1058 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-04-23 14:50:38,635 [19] INFO  umbraco.cms.businesslogic.web.Document - [Thread 41] New document 1098
+2013-04-23 14:50:53,729 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 49] Content 'Landscapes' with Id '1098' has been published.
+2013-04-23 14:51:08,466 [19] INFO  umbraco.cms.businesslogic.web.Document - [Thread 29] New document 1099
+2013-04-23 14:51:15,075 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 52] Content 'Trees in November' with Id '1099' has been published.
+2013-04-23 14:51:22,668 [19] INFO  umbraco.cms.businesslogic.web.Document - [Thread 32] New document 1100
+2013-04-23 14:51:35,285 [19] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x80004005): Maximum request length exceeded.
+   at System.Web.HttpRequest.GetEntireRawContent()
+   at System.Web.HttpRequest.GetMultipartContent()
+   at System.Web.HttpRequest.FillInFormCollection()
+   at System.Web.HttpRequest.EnsureForm()
+   at System.Web.HttpRequest.get_Form()
+   at System.Web.HttpRequest.get_HasForm()
+   at System.Web.UI.Page.GetCollectionBasedOnMethod(Boolean dontReturnNull)
+   at System.Web.UI.Page.DeterminePostBackMode()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_editcontent_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2013-04-23 14:52:11,782 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Bridge' with Id '1100' has been published.
+2013-04-23 14:52:30,749 [19] INFO  umbraco.cms.businesslogic.web.Document - [Thread 43] New document 1101
+2013-04-23 14:52:59,966 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content 'Alpine Skiing in the Mountains' with Id '1101' has been published.
+2013-04-23 14:55:59,947 [19] INFO  umbraco.cms.businesslogic.web.Document - [Thread 32] New document 1102
+2013-04-23 14:56:24,661 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'Animals' with Id '1102' has been published.
+2013-04-23 14:56:33,797 [19] INFO  umbraco.cms.businesslogic.web.Document - [Thread 29] New document 1103
+2013-04-23 14:56:59,582 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content 'Cows in the Meadow' with Id '1103' has been published.
+2013-04-23 14:57:04,376 [19] INFO  umbraco.cms.businesslogic.web.Document - [Thread 52] New document 1104
+2013-04-23 14:57:14,201 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content 'Tiger' with Id '1104' has been published.
+2013-04-23 14:57:59,418 [19] INFO  umbraco.cms.businesslogic.web.Document - [Thread 51] New document 1105
+2013-04-23 14:58:07,443 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Cat' with Id '1105' has been published.
+2013-04-23 14:58:21,916 [19] INFO  umbraco.cms.businesslogic.web.Document - [Thread 26] New document 1106
+2013-04-23 14:58:32,222 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content 'Red Ruffed Lemur' with Id '1106' has been published.
+2013-04-23 14:58:41,225 [19] INFO  umbraco.cms.businesslogic.web.Document - [Thread 32] New document 1107
+2013-04-23 14:58:58,349 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content 'Horse in the Snow' with Id '1107' has been published.
+2013-04-23 14:59:12,258 [19] INFO  umbraco.cms.businesslogic.web.Document - [Thread 52] New document 1108
+2013-04-23 14:59:35,254 [19] INFO  umbraco.BusinessLogic.Log - [Thread 43] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] (InternalIndexer)Index is being optimized
+2013-04-23 14:59:35,280 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Other Horse in Snow' with Id '1108' has been published.
+2013-04-23 14:59:50,012 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content 'Cows in the Meadow' with Id '1103' has been published.
+2013-04-23 15:00:20,558 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Landscapes' with Id '1098' has been published.
+2013-04-23 15:00:26,812 [19] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Landscapes' with Id '1098' has been published.
+2013-04-23 15:00:36,248 [19] INFO  umbraco.BusinessLogic.Log - [Thread 50] Log scrubbed.  Removed all items older than 2013-02-22 15:00:36
+2013-04-23 15:00:36,249 [19] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 50] Application shutdown. Reason: HostingEnvironment
+2013-04-23 15:00:39,712 [42] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-04-23 15:00:39,723 [42] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-04-23 15:00:39,728 [42] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2013-04-23 15:00:39,839 [42] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 13 (took 106ms)
+2013-04-23 15:00:39,850 [42] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 2ms)
+2013-04-23 15:00:39,852 [42] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2013-04-23 15:00:39,854 [42] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-04-23 15:00:39,858 [42] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
+2013-04-23 15:00:39,860 [42] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 2ms)
+2013-04-23 15:00:39,888 [42] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 175ms)
+2013-04-23 15:00:39,977 [42] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 2ms)
+2013-04-23 15:00:39,995 [42] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
+2013-04-23 15:00:40,013 [42] INFO  umbraco.BusinessLogic.Log - [Thread 41] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 3
+2013-04-23 15:00:40,050 [42] INFO  umbraco.content - [Thread 44] Loading content from disk cache...
+2013-04-23 15:00:40,230 [42] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-04-23 15:00:40,610 [42] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 2ms)
+2013-04-23 15:00:40,616 [42] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 1ms)
+2013-04-23 15:00:40,647 [42] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 2ms)
+2013-04-23 15:00:57,824 [42] INFO  Umbraco.Core.PluginManager - [Thread 39] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
+2013-04-23 15:01:11,351 [42] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Alpine Skiing in the Mountains' with Id '1101' has been published.
+2013-04-23 15:01:11,473 [42] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 47] Error adding node 1058 to SiteMapProvider in loadNodes()
+System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
+   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
+   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
+2013-04-23 15:01:13,235 [42] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content 'Trees in November' with Id '1099' has been published.
+2013-04-23 15:01:15,333 [42] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 13] Content 'Bridge' with Id '1100' has been published.
+2013-04-23 15:01:37,988 [42] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 49] Content 'Alpine Skiing in the Mountains' with Id '1101' has been published.
+2013-04-23 15:01:38,137 [42] INFO  umbraco.content - [Thread 51] Loading content from database...
+2013-04-23 15:01:41,766 [42] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 49] Content 'Alpine Skiing in the Mountains' with Id '1101' has been published.
