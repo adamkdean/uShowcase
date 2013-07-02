@@ -1,10 +1,12 @@
 ﻿@{
 	var maxWidth = 940;	
-	var imageUrl = string.Format("/imagegen.ashx?image={0}&width={1}&constrain=true", 
-								Model.photo, maxWidth);
+	var maxHeight = 705;	
+	var imageUrl = string.Format("/imagegen.ashx?image={0}&width={1}&height={2}&constrain=true", 
+								Model.photo, maxWidth, maxHeight);
 }
 
-
-<img src="@imageUrl" alt="@Model.photoTitle">
-<h1 class="photo-title">@Model.photoTitle</h1>
-<p class="photo-description">@Model.photoDescription</p>
+<div class="photo-box">
+	<img src="@imageUrl" alt="@Model.photoTitle">
+	<h1 class="photo-title">@Model.photoTitle</h1>
+	<p class="photo-description">@Model.photoDescription</p>
+</div>

@@ -1,82 +1,65 @@
-2013-04-24 11:17:29,880 [8] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
-2013-04-24 11:17:29,936 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
-2013-04-24 11:17:29,941 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
-2013-04-24 11:17:30,061 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 13 (took 114ms)
-2013-04-24 11:17:30,074 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 1ms)
-2013-04-24 11:17:30,076 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
-2013-04-24 11:17:30,078 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
-2013-04-24 11:17:30,085 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 2ms)
-2013-04-24 11:17:30,087 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
-2013-04-24 11:17:30,165 [8] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 281ms)
-2013-04-24 11:17:30,449 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
-2013-04-24 11:17:30,527 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
-2013-04-24 11:17:30,567 [8] INFO  umbraco.BusinessLogic.Log - [Thread 9] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 3
-2013-04-24 11:17:30,744 [8] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
-2013-04-24 11:17:31,000 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
-2013-04-24 11:17:31,441 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 2ms)
-2013-04-24 11:17:31,447 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 1ms)
-2013-04-24 11:17:31,465 [8] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 2ms)
-2013-04-24 11:19:54,401 [8] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
-2013-04-24 11:20:53,058 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Animals' with Id '1102' has been unpublished.
-2013-04-24 11:20:53,212 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Cows in the Meadow' with Id '1103' has been unpublished.
-2013-04-24 11:20:53,239 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Other Horse in Snow' with Id '1108' has been unpublished.
-2013-04-24 11:20:53,262 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Horse in the Snow' with Id '1107' has been unpublished.
-2013-04-24 11:20:53,287 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Red Ruffed Lemur' with Id '1106' has been unpublished.
-2013-04-24 11:20:53,311 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Cat' with Id '1105' has been unpublished.
-2013-04-24 11:20:53,336 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Tiger' with Id '1104' has been unpublished.
-2013-04-24 11:20:55,527 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Landscapes' with Id '1098' has been unpublished.
-2013-04-24 11:20:55,606 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Alpine Skiing in the Mountains' with Id '1101' has been unpublished.
-2013-04-24 11:20:55,631 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Bridge' with Id '1100' has been unpublished.
-2013-04-24 11:20:55,656 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Trees in November' with Id '1099' has been unpublished.
-2013-04-24 11:20:57,590 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Food' with Id '1091' has been unpublished.
-2013-04-24 11:20:57,704 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Breakfast Waffles' with Id '1097' has been unpublished.
-2013-04-24 11:20:57,728 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Strawberry Water Splash' with Id '1096' has been unpublished.
-2013-04-24 11:20:57,753 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Pepper and Tomato' with Id '1095' has been unpublished.
-2013-04-24 11:20:57,777 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Melon Slices' with Id '1094' has been unpublished.
-2013-04-24 11:20:57,802 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Fruits in a melon' with Id '1093' has been unpublished.
-2013-04-24 11:20:57,826 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content 'Still Onion' with Id '1092' has been unpublished.
-2013-04-24 11:21:03,970 [8] INFO  umbraco.cms.businesslogic.web.Document - [Thread 24] New document 1109
-2013-04-24 11:21:17,000 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Example Gallery' with Id '1109' has been published.
-2013-04-24 11:21:17,147 [8] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 9] Error adding node 1058 to SiteMapProvider in loadNodes()
-System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
-   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
-   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
-2013-04-24 11:21:22,501 [8] INFO  umbraco.cms.businesslogic.web.Document - [Thread 9] New document 1110
-2013-04-24 11:21:33,632 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Another Example Gallery' with Id '1110' has been published.
-2013-04-24 11:21:40,123 [8] INFO  umbraco.cms.businesslogic.web.Document - [Thread 7] New document 1111
-2013-04-24 11:21:46,905 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content 'Example Photo' with Id '1111' has been published.
-2013-04-24 11:21:50,625 [8] INFO  umbraco.cms.businesslogic.web.Document - [Thread 15] New document 1112
-2013-04-24 11:21:59,732 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Example Photo 2' with Id '1112' has been published.
-2013-04-24 11:22:04,426 [8] INFO  umbraco.cms.businesslogic.web.Document - [Thread 28] New document 1113
-2013-04-24 11:22:11,396 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Example Photo' with Id '1113' has been published.
-2013-04-24 11:22:29,717 [8] INFO  umbraco.BusinessLogic.Log - [Thread 27] Log scrubbed.  Removed all items older than 2013-02-23 11:22:29
-2013-04-24 11:22:29,718 [8] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 27] Application shutdown. Reason: HostingEnvironment
-2013-04-24 11:22:36,905 [13] INFO  Umbraco.Core.CoreBootManager - [Thread 32] Umbraco application starting
-2013-04-24 11:22:36,917 [13] INFO  Umbraco.Core.PluginManager - [Thread 32] Determining hash of code files on disk
-2013-04-24 11:22:36,924 [13] INFO  Umbraco.Core.PluginManager - [Thread 32] Hash determined (took 5ms)
-2013-04-24 11:22:37,034 [13] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 13 (took 104ms)
-2013-04-24 11:22:37,045 [13] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 3ms)
-2013-04-24 11:22:37,047 [13] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
-2013-04-24 11:22:37,051 [13] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
-2013-04-24 11:22:37,055 [13] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
-2013-04-24 11:22:37,057 [13] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
-2013-04-24 11:22:37,083 [13] INFO  Umbraco.Core.CoreBootManager - [Thread 32] Umbraco application startup complete (took 177ms)
-2013-04-24 11:22:37,169 [13] INFO  umbraco.BusinessLogic.Log - [Thread 25] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 3
-2013-04-24 11:22:37,172 [13] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
-2013-04-24 11:22:37,190 [13] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 2ms)
-2013-04-24 11:22:37,239 [13] INFO  umbraco.content - [Thread 24] Loading content from disk cache...
-2013-04-24 11:22:37,357 [13] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
-2013-04-24 11:22:37,607 [13] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 2ms)
-2013-04-24 11:22:37,609 [13] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 1ms)
-2013-04-24 11:22:37,615 [13] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 2ms)
-2013-04-24 11:24:36,391 [13] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)
-2013-04-24 11:34:20,437 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'Another Example Gallery' with Id '1110' has been published.
-2013-04-24 11:34:20,553 [13] ERROR umbraco.presentation.nodeFactory.UmbracoSiteMapProvider - [Thread 31] Error adding node 1058 to SiteMapProvider in loadNodes()
-System.InvalidOperationException: Multiple nodes with the same URL '/' were found. XmlSiteMapProvider requires that sitemap nodes have unique URLs.
-   at System.Web.StaticSiteMapProvider.AddNode(SiteMapNode node, SiteMapNode parentNode)
-   at umbraco.presentation.nodeFactory.UmbracoSiteMapProvider.loadNodes(String parentId, SiteMapNode parentNode)
-2013-04-24 11:34:24,928 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Example Photo' with Id '1113' has been published.
-2013-04-24 11:34:52,638 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Example Photo' with Id '1113' has been published.
-2013-04-24 11:44:33,780 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Example Photo' with Id '1113' has been published.
-2013-04-24 11:44:43,840 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Another Example Gallery' with Id '1110' has been published.
-2013-04-24 12:01:28,085 [13] INFO  umbraco.BasePages.BasePage - [Thread 10] User admin (Id: 0) logged in
+2013-07-02 14:13:19,600 [8] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application starting
+2013-07-02 14:13:19,665 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2013-07-02 14:13:19,685 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 20ms)
+2013-07-02 14:13:19,817 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 13 (took 125ms)
+2013-07-02 14:13:19,830 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Models.IMacroPropertyType, found 0 (took 2ms)
+2013-07-02 14:13:19,832 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 1ms)
+2013-07-02 14:13:19,833 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 1ms)
+2013-07-02 14:13:19,840 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 1ms)
+2013-07-02 14:13:19,842 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 1ms)
+2013-07-02 14:13:19,993 [8] INFO  Umbraco.Core.CoreBootManager - [Thread 1] Umbraco application startup complete (took 390ms)
+2013-07-02 14:13:20,274 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 4ms)
+2013-07-02 14:13:20,331 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 3ms)
+2013-07-02 14:13:20,513 [8] INFO  umbraco.BusinessLogic.Log - [Thread 7] Redirected log call (please use Umbraco.Core.Logging.LogHelper instead of umbraco.BusinessLogic.Log) | Type: Custom | User: 0 | NodeId: -1 | Comment: [UmbracoExamine] Adding examine event handlers for index providers: 3
+2013-07-02 14:13:20,658 [8] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2013-07-02 14:13:22,752 [8] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 2ms)
+2013-07-02 14:13:25,115 [8] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.IDataType, found 35 (took 2ms)
+2013-07-02 14:13:25,121 [8] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 1ms)
+2013-07-02 14:13:25,166 [8] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.MacroEngines.IRazorDataTypeModel, found 2 (took 2ms)
+2013-07-02 14:13:35,239 [8] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 7] Error executing query UPDATE umbracoUserLogins SET timeout = @timeout WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+UPDATE umbracoUserLogins SET timeout = @timeout WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : C7400F5C44C672894E5774BF33E944190C4F2CE41A1A972088F78A8780FD676F0635255C16178121CA027003E12791ED156CDBA2E6DFD44AE9F8F5F5A107C6E2CC8DBEF602B89F671E0B599A71C53CCB423A708BF5A6220A06E9008AAFE3CD761341A72F0DC6F39C4B91644F7A92F7D05D3F1F9DDC58B2A29C92512A4708BA356919E4973F9843A764626B24B543435464214DB4F7651D1CE2316A4A21C95B1620849F44C38E0E46618F0520ACDC8EF9A6D21C5C412140833FFE38E5195B1973 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+2013-07-02 14:13:35,996 [8] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlServerCe.SqlCeParameter, System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91]] - [Thread 9] Error executing query DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : C7400F5C44C672894E5774BF33E944190C4F2CE41A1A972088F78A8780FD676F0635255C16178121CA027003E12791ED156CDBA2E6DFD44AE9F8F5F5A107C6E2CC8DBEF602B89F671E0B599A71C53CCB423A708BF5A6220A06E9008AAFE3CD761341A72F0DC6F39C4B91644F7A92F7D05D3F1F9DDC58B2A29C92512A4708BA356919E4973F9843A764626B24B543435464214DB4F7651D1CE2316A4A21C95B1620849F44C38E0E46618F0520ACDC8EF9A6D21C5C412140833FFE38E5195B1973 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+2013-07-02 14:13:35,996 [8] ERROR umbraco.BasePages.BasePage - [Thread 9] Login with contextId C7400F5C44C672894E5774BF33E944190C4F2CE41A1A972088F78A8780FD676F0635255C16178121CA027003E12791ED156CDBA2E6DFD44AE9F8F5F5A107C6E2CC8DBEF602B89F671E0B599A71C53CCB423A708BF5A6220A06E9008AAFE3CD761341A72F0DC6F39C4B91644F7A92F7D05D3F1F9DDC58B2A29C92512A4708BA356919E4973F9843A764626B24B543435464214DB4F7651D1CE2316A4A21C95B1620849F44C38E0E46618F0520ACDC8EF9A6D21C5C412140833FFE38E5195B1973 didn't exist in the database
+umbraco.DataLayer.SqlHelperException: Umbraco Exception (DataLayer): SQL helper exception in ExecuteNonQuery ---> SqlCE4Umbraco.SqlCeProviderException: Error running NonQuery: 
+SQL Statement:
+DELETE FROM umbracoUserLogins WHERE contextId = @contextId
+
+Exception:
+System.FormatException: @contextId : C7400F5C44C672894E5774BF33E944190C4F2CE41A1A972088F78A8780FD676F0635255C16178121CA027003E12791ED156CDBA2E6DFD44AE9F8F5F5A107C6E2CC8DBEF602B89F671E0B599A71C53CCB423A708BF5A6220A06E9008AAFE3CD761341A72F0DC6F39C4B91644F7A92F7D05D3F1F9DDC58B2A29C92512A4708BA356919E4973F9843A764626B24B543435464214DB4F7651D1CE2316A4A21C95B1620849F44C38E0E46618F0520ACDC8EF9A6D21C5C412140833FFE38E5195B1973 - Guid should contain 32 digits with 4 dashes (xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx).
+   at System.Data.SqlServerCe.SqlCeCommand.FillParameterDataBindings(Boolean verifyValue)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteCommand(CommandBehavior behavior, String method, ResultSetOptions options)
+   at System.Data.SqlServerCe.SqlCeCommand.ExecuteNonQuery()
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCeApplicationBlock.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlCeParameter[] commandParameters)
+   at SqlCE4Umbraco.SqlCEHelper.ExecuteNonQuery(String commandText, SqlCeParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+   --- End of inner exception stack trace ---
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+   at umbraco.BasePages.BasePage.DeleteLogin()
+2013-07-02 14:13:38,878 [8] INFO  umbraco.BasePages.BasePage - [Thread 10] User admin (Id: 0) logged in
+2013-07-02 14:13:38,909 [8] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 2ms)

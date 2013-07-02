@@ -26,6 +26,7 @@
 .footer ul li { float: left; margin-left: 10px; }
 
 /* photo */
+.photo-box { width: auto; text-align: center; }
 .photo-title { color: #333; font-size: 200%; margin: 15px 0 5px 0 ; padding: 0; }
 .photo-description { color: #444; padding: 0; }
 
@@ -75,6 +76,8 @@
 .photogrid .info p { color: white; margin: 0; padding: 0; font-size: 90%; line-height: 1.3em; }
 .photogrid .info .name { font-weight: bold; }
 .photogrid .info .description { }
+
+
 
 
 

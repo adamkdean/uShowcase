@@ -7,9 +7,8 @@
 	@foreach(var photo in photoNodes)
 	{
 		var maxWidth = 300;
-		var maxHeight = 300;
-		var imageUrl = string.Format("/imagegen.ashx?image={0}&width={1}&height={2}&constrain=true", 
-									 photo.photo, maxWidth, maxHeight);
+		var imageUrl = string.Format("/imagegen.ashx?image={0}&width={1}&constrain=true", 
+									 photo.photo, maxWidth);
 		var gridClass = "";
 		if (gridCount == 0) { gridClass = "photogrid-left"; gridCount++; }
 		else if (gridCount == 1) { gridClass = "photogrid-centre"; gridCount++; }
